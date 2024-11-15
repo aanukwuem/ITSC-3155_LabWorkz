@@ -1,18 +1,19 @@
-@import url('https://fonts.cdnfonts.com/css/courgette');
-@import url('https://fonts.cdnfonts.com/css/alegreya-sc');
-@import url('https://fonts.cdnfonts.com/css/domine');
-@import url('https://fonts.cdnfonts.com/css/homoarakhn');
-@import url('https://fonts.cdnfonts.com/css/jetbrains-mono-2');
-
+@import url('https://fonts.cdnfonts.com/css/glaruda-skyline');
+@import url('https://fonts.cdnfonts.com/css/share-tech-mono');
+@import url('https://fonts.cdnfonts.com/css/pridi');
 
 body {
- font-family: 'Homoarakhn', sans-serif;
- background-image:url("websiteimage.png");
+ font-family: 'pridi', sans-serif;
  background-repeat: no-repeat;
  background-attachment: fixed;
  background-size: cover;
 }
 
+head,title {
+  font-family: 'GLARUDA SKYLINE', sans-serif;
+  font-size: large;
+  
+}
 .dropdown {
   display: none;
   position: absolute;
@@ -68,9 +69,8 @@ footer img {
 
 footer a:hover,
 header a:hover {
-  color: black;
-  font-family: 'Alegreya SC', sans-serif;
-
+  color: black;                                                                    
+  font-family: 'Share Tech Mono', sans-serif;
 }
 
 nav {
@@ -166,14 +166,14 @@ h2 {
 .label {
   color: violet;
   box-shadow: #596235;
-  font-family: 'Domine', sans-serif;
+  font-family: 'Share Tech Mono', sans-serif;
 }
 
 p,
 a {
   color: #c797a9;
   text-align: center;
-  font-family: 'Domine', sans-serif;
+  font-family: 'Share Tech Mono', sans-serif;
   font-size: 15px;
   text-decoration: none;
 }
@@ -191,16 +191,10 @@ li {
 footer {
   color: azure;
   text-align: center;
-  font-family: 'Domine', sans-serif;
-
+  font-family: 'Share Tech Mono', sans-serif;
   font-size: 15px;
 }
 
-.lego {
-  font-family: 'LEGO BRIX', sans-serif;
-  color: whitesmoke;
-  font-size: x-large;
-}
 
 nav>a {
   color: whitesmoke;
