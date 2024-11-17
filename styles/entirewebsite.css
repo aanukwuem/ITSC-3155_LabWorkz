@@ -9,11 +9,12 @@ body {
  background-size: cover;
 }
 
-head,title {
+h1, title, h2, h3 {
   font-family: 'GLARUDA SKYLINE', sans-serif;
-  font-size: large;
-  
+  font-size: 30px;
+  color: violet;
 }
+
 .dropdown {
   display: none;
   position: absolute;
@@ -84,11 +85,7 @@ nav {
  color: green;
 }
 
-h3 {
-  color: violet;
-  font-family: kanit;
-  text-align: center;
-}
+
 
 main {
   margin-left: 20%;
@@ -154,14 +151,7 @@ td {
 
 }
 
-h1,
-h2 {
-  font-family: 'Alegreya SC', sans-serif;
 
-  color: rgb(243, 155, 236);
-  text-align: center;
-  font-size: 30px;
-}
 
 .label {
   color: violet;
